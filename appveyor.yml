@@ -4,5 +4,6 @@ build:
   verbosity: minimal
 
 build_script:
-  - ps: $aaaa = "hey! you!"
-  - ps: Write-Host ${aaaa}
+  - ps: |
+    $aaaa = "hey! you!"
+    Write-Host ${aaaa}
