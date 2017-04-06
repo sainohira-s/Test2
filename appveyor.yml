@@ -5,5 +5,5 @@ build:
 
 build_script:
   - ps: |
-    $aaaa = "hey! you!"
-    Write-Host ${aaaa}
+      $aaaa = "hey! you!"
+      Write-Host ${aaaa}
