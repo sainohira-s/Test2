@@ -7,3 +7,6 @@ build_script:
   - ps: |
       $aaaa = "hey! you!"
       Write-Host ${aaaa}
+      $script_path = $MyInvocation.MyCommand.Path
+      Write-Host ${script_path}
+      
